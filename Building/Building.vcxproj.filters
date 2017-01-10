@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\lib3ds">
+      <UniqueIdentifier>{0ee52978-6d34-42f6-a374-db99e8f250e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sqlite3">
+      <UniqueIdentifier>{7033ef0e-d55e-4e6d-93f1-5e7015e42c97}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\lib3ds\lib3ds_atmosphere.c">
+      <Filter>Source Files\lib3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lib3ds\lib3ds_background.c">
+      <Filter>Source Files\lib3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lib3ds\lib3ds_camera.c">
+      <Filter>Source Files\lib3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lib3ds\lib3ds_chunk.c">
+      <Filter>Source Files\lib3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lib3ds\lib3ds_chunktable.c">
+      <Filter>Source Files\lib3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lib3ds\lib3ds_file.c">
+      <Filter>Source Files\lib3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lib3ds\lib3ds_io.c">
+      <Filter>Source Files\lib3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lib3ds\lib3ds_light.c">
+      <Filter>Source Files\lib3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lib3ds\lib3ds_material.c">
+      <Filter>Source Files\lib3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lib3ds\lib3ds_math.c">
+      <Filter>Source Files\lib3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lib3ds\lib3ds_matrix.c">
+      <Filter>Source Files\lib3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lib3ds\lib3ds_mesh.c">
+      <Filter>Source Files\lib3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lib3ds\lib3ds_node.c">
+      <Filter>Source Files\lib3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lib3ds\lib3ds_quat.c">
+      <Filter>Source Files\lib3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lib3ds\lib3ds_shadow.c">
+      <Filter>Source Files\lib3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lib3ds\lib3ds_track.c">
+      <Filter>Source Files\lib3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lib3ds\lib3ds_util.c">
+      <Filter>Source Files\lib3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lib3ds\lib3ds_vector.c">
+      <Filter>Source Files\lib3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lib3ds\lib3ds_viewport.c">
+      <Filter>Source Files\lib3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sqlite3\sqlite3.c">
+      <Filter>Source Files\sqlite3</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sqlite3\sqlite3util.c">
+      <Filter>Source Files\sqlite3</Filter>
+    </ClCompile>
+    <ClCompile Include="source\common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BuildingsTo3DS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ParseBuildingData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\lib3ds\lib3ds.h">
+      <Filter>Source Files\lib3ds</Filter>
+    </ClInclude>
+    <ClInclude Include="source\lib3ds\lib3ds_impl.h">
+      <Filter>Source Files\lib3ds</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sqlite3\sqlite3.h">
+      <Filter>Source Files\sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sqlite3\sqlite3ext.h">
+      <Filter>Source Files\sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sqlite3\sqlite3util.h">
+      <Filter>Source Files\sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="source\common.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\BuildingsTo3DS.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ParseBuildingData.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="source\lib3ds\lib3ds.rc">
+      <Filter>Source Files\lib3ds</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
